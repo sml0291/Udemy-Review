@@ -1,4 +1,7 @@
-# 11. Introduction to HTML
+# Section 2: Introduction to HTML
+
+
+## 11. Introduction to HTML
 
 HTML = HyperText Markup Language
 
@@ -9,7 +12,7 @@ MDN
 <br>
 
 
-# 12. The Anatonmy of an HTML tag
+## 12. The Anatonmy of an HTML tag
 
 Browser에서 Right click->Inspect->Elements
 
@@ -25,12 +28,12 @@ Browser에서 Right click->Inspect->Elements
 <!-- -->
 
 
-# 13. What we're building - HTML Personal Site
+## 13. What we're building - HTML Personal Site
 
 그냥 CS Professors' websites 보여줌 
 
 
-#14. What is the HTML Boilerplate? 
+## 14. What is the HTML Boilerplate? 
 
 index.html
 Boilerplate는 Atom에서 html 타이핑하고 엔터하면 나오는 거
@@ -40,7 +43,7 @@ Boilerplate는 Atom에서 html 타이핑하고 엔터하면 나오는 거
 Atom에서 파일 클릭하고 오른쪽 클릭하고 Copy the full path 누르면 browser에서 바로 열기 가능
 
 
-# 15. How to Structure Text in HTML
+## 15. How to Structure Text in HTML
 
 ![image](https://user-images.githubusercontent.com/76763879/110209448-4bdb1880-7e52-11eb-9221-f05943d88290.png)
 <p></p>
@@ -48,14 +51,41 @@ Atom에서 파일 클릭하고 오른쪽 클릭하고 Copy the full path 누르�
 <strong> vs <b>
 
 
-# 16. HTML List
+## 16. HTML List
+
 <ul></ul> Unordered List
 <ol></ol> Ordered List
 <li></li> List Item (안에 넣음)
 
 
-#17. HTML Image Element
+## 17. HTML Image Element
+
 ![image](https://user-images.githubusercontent.com/76763879/110209540-cb68e780-7e52-11eb-85d5-993a797542bc.png)
 이미지가 웹에 게시된 경우: <img src="{웹이미지 URL}" alt="{구글링할 때 여기 뭘 넣으냐에 따라 검색결과 ㅇㅇ 예: angela profile picture}">
 photobucket.com
+<img src="angela.png" alt="angela profile picture">
+<img src="images/angela.png" alt="angela profile picture">
+
+## 18. HTML Links and Anchor Tags
+
+Hypertext = Hyperlink로 text를 잇는 것
+![image](https://user-images.githubusercontent.com/76763879/110220519-c4aa9680-7e8b-11eb-856b-116e974bd358.png)
+<a href="http://www.google.com">Google</a>
+![image](https://user-images.githubusercontent.com/76763879/110220559-fcb1d980-7e8b-11eb-9a9d-11e58b43e0ad.png)
+<a href="hobbies.html">My Hobbies</a>
+
+
+
+# Section 3: Intermediate HTML
+
+## 20. HTML Tables
+
+## 21. Using HTML Tables for Layout
+
+## 23. How to Type Emojis
+
+## 25. HTML Forms
+
+## 27. Publish Your Website!
+
 
