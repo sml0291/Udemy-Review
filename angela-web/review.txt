@@ -40,3 +40,22 @@ Boilerplate는 Atom에서 html 타이핑하고 엔터하면 나오는 거
 Atom에서 파일 클릭하고 오른쪽 클릭하고 Copy the full path 누르면 browser에서 바로 열기 가능
 
 
+# 15. How to Structure Text in HTML
+
+![image](https://user-images.githubusercontent.com/76763879/110209448-4bdb1880-7e52-11eb-9221-f05943d88290.png)
+<p></p>
+<em> vs <i> logical state vs physical state (구글링에 다르게 결과 나옴)
+<strong> vs <b>
+
+
+# 16. HTML List
+<ul></ul> Unordered List
+<ol></ol> Ordered List
+<li></li> List Item (안에 넣음)
+
+
+#17. HTML Image Element
+![image](https://user-images.githubusercontent.com/76763879/110209540-cb68e780-7e52-11eb-85d5-993a797542bc.png)
+이미지가 웹에 게시된 경우: <img src="{웹이미지 URL}" alt="{구글링할 때 여기 뭘 넣으냐에 따라 검색결과 ㅇㅇ 예: angela profile picture}">
+photobucket.com
+
