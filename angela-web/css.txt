@@ -1,0 +1,80 @@
+# Introduction to CSS
+
+
+## 30. Introduction to CSS
+
+CSS = Cascading Style Sheet = style markup language (혼자선 아무것도 못함 ㅇㅇ)
+HTML로 디자인 하려니 너무 코딩이 길어짐. 그래서 만듬 ㅇㅇ
+
+
+## 31. Inline CSS
+
+<body></body>에다가 넣는 방법
+
+<예시>
+<body style="background-color: blue;">
+hex color 
+구글에 hex color라고 치면 나옴: https://www.google.com/search?q=hex+color&rlz=1C1CHBF_enUS892US892&oq=hex+color&aqs=chrome.0.0i433l3j0j0i433l2j0l4.921j0j7&sourceid=chrome&ie=UTF-8
+
+
+## 33. Internal CSS
+
+<head></head> 안에다가 넣는 방법
+
+<문제>
+이런 걸 만들고 싶은 거임
+![image](https://user-images.githubusercontent.com/76763879/110249809-a1402400-7f3d-11eb-8d03-1495057b4f10.png)
+
+<정답>
+<head>
+  <style>
+    body {
+      background-color: powderblue;
+    }
+    hr {
+      background-color: red;
+      border-style: dotted;
+      border-color: grey;
+      border-width: 5px;
+      width: 5%;
+    }
+  </style>
+</head>
+
+근데 위처럼 만들면 내가 생각한 1라인이 안나옴 ㅇㅇ 그럼 어케 하냐?
+border-style: none;
+border-top-style: dotted; 로 해주면 됨 ㅇㅇ
+
+
+## 34. External CSS
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+그 다음 styles.css에다가 body {...} h1 {...} 이런 거 넣으면 됨
+
+
+## 35. How to Debug CSS Code
+
+1) Right click->Inspect
+2) 어떤 element 위에서 inspect하면 그 코드가 뜸
+
+
+## 36. The Anatomy of CSS Syntax
+
+![image](https://user-images.githubusercontent.com/76763879/110249931-6094da80-7f3e-11eb-80f9-7cacf0c20ee0.png)
+![image](https://user-images.githubusercontent.com/76763879/110249951-760a0480-7f3e-11eb-88c3-70118a3b5b47.png)
+
+css 폴더 만들고 그 안에 넣어보기
+<link rel="stylesheet" href="css/styles.css">
+
+
+## 37. CSS Selectors
+
+Tag Selector은 h1, body 등 이미 있는 애들고 선택하는 것 (예: h1)
+Class Selector은 class="broccoli" 등으로 이름을 따로 정해서 선택하는 것 (예: .broccoli)
+Id Selector은 class랑 같이 이름을 따로 정하는 건데, class는 여러번 쓸 수 있지만 id는 딱! 한개임 ㅇㅇ (예: #title)
+
+
+
