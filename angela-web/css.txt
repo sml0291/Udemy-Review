@@ -147,6 +147,21 @@ span {
 
 ## 47. CSS Static and Relative Positioning
 
+z-axis (가장 앞에 있는 것 span, 그 다음 h1 그 다음 div
+![image](https://user-images.githubusercontent.com/76763879/110263667-ff402c00-7f7c-11eb-9615-9530a56e8681.png)
+
+![image](https://user-images.githubusercontent.com/76763879/110263721-24349f00-7f7d-11eb-88d5-99f4a3a98408.png)
+1. static = 원래 default
+2. relative = 원래 default(즉 static)에 비해서 반영된 거
+<예>
+img {
+  position: relative;
+  left: 30px; 
+} 일 경우, 원래 default에 비해 왼쪽으로 30px space 두게 움직인 거
+![image](https://user-images.githubusercontent.com/76763879/110263855-8b525380-7f7d-11eb-843f-030bf281e391.png)
+
+
+
 ## 48. Absolute Positioning
 
 ## 49. The Dark Art of Centering Elements with CSS
