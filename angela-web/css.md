@@ -1,153 +1,177 @@
-# Section 2: Introduction to HTML
+# Introduction to CSS
 
 
-## 11. Introduction to HTML
+## 30. Introduction to CSS
 
-HTML = HyperText Markup Language
-
-<h1></h1> 부터 <h6></h6> 까지
-
-MDN
-
-<br>
+CSS = Cascading Style Sheet = style markup language (혼자선 아무것도 못함 ㅇㅇ)
+HTML로 디자인 하려니 너무 코딩이 길어짐. 그래서 만듬 ㅇㅇ
 
 
-## 12. The Anatonmy of an HTML tag
+## 31. Inline CSS
 
-Browser에서 Right click->Inspect->Elements
+<body></body>에다가 넣는 방법
 
-![image](https://user-images.githubusercontent.com/76763879/110209270-21d52680-7e51-11eb-8338-4e3a0770c487.png)
-![image](https://user-images.githubusercontent.com/76763879/110209287-30bbd900-7e51-11eb-807f-824bf8437a3a.png)
-![image](https://user-images.githubusercontent.com/76763879/110209299-492bf380-7e51-11eb-8643-3ba43cdf5fa6.png)
-
-![image](https://user-images.githubusercontent.com/76763879/110209239-fe11e080-7e50-11eb-9159-5697050da330.png)
-![image](https://user-images.githubusercontent.com/76763879/110209315-68c31c00-7e51-11eb-9962-f4b4d65d8527.png)
-
-<hr size="3" noshade>
-<center></center>
-<!-- -->
+<예시>
+<body style="background-color: blue;">
+hex color 
+구글에 hex color라고 치면 나옴: https://www.google.com/search?q=hex+color&rlz=1C1CHBF_enUS892US892&oq=hex+color&aqs=chrome.0.0i433l3j0j0i433l2j0l4.921j0j7&sourceid=chrome&ie=UTF-8
 
 
-## 13. What we're building - HTML Personal Site
+## 33. Internal CSS
 
-그냥 CS Professors' websites 보여줌 
+<head></head> 안에다가 넣는 방법
 
+<문제>
+이런 걸 만들고 싶은 거임
+![image](https://user-images.githubusercontent.com/76763879/110249809-a1402400-7f3d-11eb-8d03-1495057b4f10.png)
 
-## 14. What is the HTML Boilerplate? 
-
-index.html
-Boilerplate는 Atom에서 html 타이핑하고 엔터하면 나오는 거
-<head></head> 이 안에 들어가는 건 구글링에 관련된 거 ㅇㅇ
-<body></body> 이 안에 들어가는 게 진짜로 웹페이지에 보이는 거 ㅇㅇ
-<title></title> 탭에 나오는 글자들
-Atom에서 파일 클릭하고 오른쪽 클릭하고 Copy the full path 누르면 browser에서 바로 열기 가능
-
-
-## 15. How to Structure Text in HTML
-
-![image](https://user-images.githubusercontent.com/76763879/110209448-4bdb1880-7e52-11eb-9221-f05943d88290.png)
-<p></p>
-<em> vs <i> logical state vs physical state (구글링에 다르게 결과 나옴)
-<strong> vs <b>
-
-
-## 16. HTML List
-
-<ul></ul> Unordered List
-<ol></ol> Ordered List
-<li></li> List Item (안에 넣음)
-
-
-## 17. HTML Image Element
-
-![image](https://user-images.githubusercontent.com/76763879/110209540-cb68e780-7e52-11eb-85d5-993a797542bc.png)
-이미지가 웹에 게시된 경우: <img src="{웹이미지 URL}" alt="{구글링할 때 여기 뭘 넣으냐에 따라 검색결과 ㅇㅇ 예: angela profile picture}">
-photobucket.com
-<img src="angela.png" alt="angela profile picture">
-<img src="images/angela.png" alt="angela profile picture">
-
-
-## 18. HTML Links and Anchor Tags
-
-Hypertext = Hyperlink로 text를 잇는 것
-![image](https://user-images.githubusercontent.com/76763879/110220519-c4aa9680-7e8b-11eb-856b-116e974bd358.png)
-<a href="http://www.google.com">Google</a>
-![image](https://user-images.githubusercontent.com/76763879/110220559-fcb1d980-7e8b-11eb-9a9d-11e58b43e0ad.png)
-<a href="hobbies.html">My Hobbies</a>
-
-이미지가 웹에 게시된 경우: <img src="{웹이미지 URL}" alt="{구글링할 때 여기 뭘 넣으냐에 따라 검색결과 ㅇㅇ 예: angela profile picture}">
-photobucket.com (여기서 많은 이미지 찾기 가능)
-
-
-
-# Section 3: Intermediate HTML
-
-## 20. HTML Tables
-
-<table>
-  <thead> //unnecessary - 왜 쓰냐면 CSS 때 쓰일 수도 있어서
-    <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
-    </tr>
-  </thead> //unnecessary
-  <tbody> //unnecessary
-    <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Maria Anders</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <td>Centro comercial Moctezuma</td>
-      <td>Francisco Chang</td>
-      <td>Mexico</td>
-    </tr>
-  </tbody> //unnecessary
-  <tfoot> //unnecessary
-  </tfoot> //unnecessary
-</table>
-
-<table border="1"> 근데 CSS 나와서 이런 거 ㄴㄴ임
-
-
-## 21. Using HTML Tables for Layout
-
-<table cellspacing="20"> //pixel임
-
-
-## 23. How to Type Emojis
-
-WIN + . 혹은 WIN + ;
-
-<해보기>
-![image](https://user-images.githubusercontent.com/76763879/110249185-8ddf8980-7f3a-11eb-84db-c0909ed81ec8.png)
-
-
-## 25. HTML Forms
-
-<form>
-  <label>First name:</label>
-  <input type="text" name="" value=""><br>
-  <input type="submit" name="" value="Save">
-  <input type="checkbox" name="" value="">
-  <input type="password" name="" value="">
-</form>
-
-여러가지 타입
-![image](https://user-images.githubusercontent.com/76763879/110249343-5cb38900-7f3b-11eb-8430-5974582d37a0.png)
-
-
-## 26. Forms in Practice - Create a Contact Me Form
-
-<textarea name="" rows="8" cols="80"></textarea>
-
-<해보기>
-![image](https://user-images.githubusercontent.com/76763879/110249414-9f756100-7f3b-11eb-94b0-f16cef396327.png)
 <정답>
-![image](https://user-images.githubusercontent.com/76763879/110249439-bddb5c80-7f3b-11eb-9bdb-29ec4e18268a.png)
+<head>
+  <style>
+    body {
+      background-color: powderblue;
+    }
+    hr {
+      background-color: red;
+      border-style: dotted;
+      border-color: grey;
+      border-width: 5px;
+      width: 5%;
+    }
+  </style>
+</head>
+
+근데 위처럼 만들면 내가 생각한 1라인이 안나옴 ㅇㅇ 그럼 어케 하냐?
+border-style: none;
+border-top-style: dotted; 로 해주면 됨 ㅇㅇ
 
 
-## 27. Publish Your Website!
+## 34. External CSS
 
-GitHub Page
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+그 다음 styles.css에다가 body {...} h1 {...} 이런 거 넣으면 됨
+
+
+## 35. How to Debug CSS Code
+
+1) Right click->Inspect
+2) 어떤 element 위에서 inspect하면 그 코드가 뜸
+
+
+## 36. The Anatomy of CSS Syntax
+
+![image](https://user-images.githubusercontent.com/76763879/110249931-6094da80-7f3e-11eb-80f9-7cacf0c20ee0.png)
+![image](https://user-images.githubusercontent.com/76763879/110249951-760a0480-7f3e-11eb-88c3-70118a3b5b47.png)
+
+css 폴더 만들고 그 안에 넣어보기
+<link rel="stylesheet" href="css/styles.css">
+
+
+## 37. CSS Selectors
+
+Tag Selector은 h1, body 등 이미 있는 애들고 선택하는 것 (예: h1)
+Class Selector은 class="broccoli" 등으로 이름을 따로 정해서 선택하는 것 (예: .broccoli)
+Id Selector은 class랑 같이 이름을 따로 정하는 건데, class는 여러번 쓸 수 있지만 id는 딱! 한개임 ㅇㅇ (예: #title) Class랑 Id의 또다른 차이점은, class는 여러 개를 같이 쓸 수 있는데, id는 딱 한 개만 쓸 수 있음. (예: class="broccoli circular" 하고 .brocolli{...} .circular{...}. 근데 아이디는 id="broccoli" 끝.)
+
+pseudo class는 앞에 : 있는 애들 (예를 들면 :hover). 얘들은 HTML elements가 different states 있어서 ㅇㅇ 
+<예>
+h1:hover {
+  color: orange;
+}
+
+
+
+# Intermediate CSS
+
+
+## 41. What We'll Make - Stylised Personal Site
+
+<문제>
+![image](https://user-images.githubusercontent.com/76763879/110262646-ed10be80-7f79-11eb-9b1d-3c2e00476945.png)
+
+
+## 42. What Are Favicons?
+
+Favicon = 위에 있는 탭에 보이는 아이콘
+favicon.cc 에서 만들어서 `Download Favicon` 누른 후에 그냥 내 폴더에 드래그 한 뒤
+<link rel="icon" href="favicon.ico"> 넣으면 됨ㅇㅇ
+
+
+## 43. HTML Divs
+
+<div></div> = divide our contents on website = grouping together
+
+<예>
+<div>
+  <h1>Hello!</h1>
+  <p>I'm Gloria.</p>
+</div>
+
+div {
+  background-color: red;
+}
+
+
+## 44. The Box Model of Website Styling - 이건 좀 어려운 컨셉이라 같이 비디오 보는 게 좋을듯?
+
+pixel (static)
+% (dynamic)
+
+![image](https://user-images.githubusercontent.com/76763879/110263042-1c73fb00-7f7b-11eb-941a-e26ea7c91e7f.png)
+![image](https://user-images.githubusercontent.com/76763879/110263079-33b2e880-7f7b-11eb-8fb7-612bd77b2f8c.png)
+![image](https://user-images.githubusercontent.com/76763879/110263107-44635e80-7f7b-11eb-9267-8d367a31c8f2.png)
+
+<문제>
+![image](https://user-images.githubusercontent.com/76763879/110263197-8ee4db00-7f7b-11eb-8fe7-130330f55a7b.png)
+
+
+## 45. CSS Display Property - 이것도 같이 보는 게 좋을 듯. 말로 설명하긴 좀 어려운 컨셉.
+
+block elements는 전체적으로 쭈욱~~ 다 지꺼임 (예: <p>나 <h1> 이나 <div>나 <form>이나 <ol> 등)
+<span></span> 이 안에 중간에 조금 underline 할 것 넣을 수 있음. 왜냠 inline display elemtn라서. (타이트하게 박스)
+inline elements는 딱 자기것만임. (예: <span>, <img>, <a>)
+
+이런 display는 바꿀 수 있음. 
+p {
+  display: inline; 혹은 display:inline-block;
+}
+span {
+  display: block; 
+}
+참고로 display: none이면 걍 아예 처음부터 없는 것처럼 안보임. 
+(참고로 visibility: none;은 거기 있지만 안보임)
+
+
+## 47. CSS Static and Relative Positioning
+
+z-axis (가장 앞에 있는 것 span, 그 다음 h1 그 다음 div
+![image](https://user-images.githubusercontent.com/76763879/110263667-ff402c00-7f7c-11eb-9615-9530a56e8681.png)
+
+![image](https://user-images.githubusercontent.com/76763879/110263721-24349f00-7f7d-11eb-88d5-99f4a3a98408.png)
+1. static = 원래 default
+2. relative = 원래 default(즉 static)에 비해서 반영된 거
+<예>
+img {
+  position: relative;
+  left: 30px; 
+} 일 경우, 원래 default에 비해 왼쪽으로 30px space 두게 움직인 거
+![image](https://user-images.githubusercontent.com/76763879/110263855-8b525380-7f7d-11eb-843f-030bf281e391.png)
+
+
+
+## 48. Absolute Positioning
+
+## 49. The Dark Art of Centering Elements with CSS
+
+## 50. Font Styling in Our Personal Site
+
+## 51. Learn More About Typography
+
+## 52. Adding Content to Our Website
+
+## 53. CSS Sizing
+
+## 58. CSS Float and Clear
