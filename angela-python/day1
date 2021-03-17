@@ -7,4 +7,6 @@ print()
 # string concatenation
 print("Hello" + " " + "kimchi!")
 
+# syntax error (" 빠지거나 ) 빠지거나 등)
+
 # indentation error (tab/space)
