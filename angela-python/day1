@@ -10,3 +10,19 @@ print("Hello" + " " + "kimchi!")
 # syntax error (" 빠지거나 ) 빠지거나 등)
 
 # indentation error (tab/space)
+
+# input function
+print("Hello" + input("What is your name?") + "!")
+
+# coding exercise #3
+print(len(input("What is your name?)))
+
+# variables
+string
+integer
+float
+boolean
+
+# coding exercise #final
+a 와 b를 switch
+
