@@ -1,0 +1,33 @@
+
+# primitive data types
+string
+integer
+float
+boolean
+
+# type
+a = float(123)
+type(a)
+
+print(70 + float("100.5")
+print(str(70) + stri(100))
+
+# array / string / coding exercise #1
+35라고 쓰면 3+5나오기
+
+# PEMDAS
+()
+**
+* /
++ -
+
+# round
+round(2.666666, 2)
+
+# //
+print(8//3) 이면 딱 떨어지게 나옴
+
+# f string
+score = 22
+print(f"your score is {score})
+
