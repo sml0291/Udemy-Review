@@ -1,0 +1,37 @@
+# Document Object Model (DOM)
+
+## Query selector
+
+document.querySelector(".btn");
+document.querySelector("li a");
+document.querySelector("li.iotem");
+이건 하나만  select 하는데 css처럼 쓰면 됨. 예: #title, .btn, h1
+
+## Get Element(s) By
+
+document.getElementsByTagName("li")[2].style.color = "purple"; - 전부 다 나옴 array 로
+
+document.getElementsByClassName("btn")[0].style.color = "red";
+
+document.getElementById.innerHTML = "Good Bye";
+
+## Text Content
+
+innerHTML vs textContent
+text는 딱 text만 가져옴
+
+## Get/Set Attribute
+
+document.querySelector("a").getAttribute("href");
+document.querySelector("a").setAttribute("href");
+
+## Class List
+
+document.querySelector("button").classList;
+a list of classes that are attached to the found 예: btn
+
+document.querySelector("button").classList.add("invisible");
+class이름이 invisible이 더해짐 그래서 즉 class="btn invisible" 처럼 됨
+
+
+
