@@ -1,0 +1,29 @@
+# Previously...
+
+<script src="index.js" charset="utf-8"></script>
+
+# 175. What is jQuery?
+
+document.querySelector("h1") = jQuery("h1") = $("h1")
+
+# 176. How to Incorporate jQuery into Websites
+
+jquery.com/download
+
+Google CDN이 가장 popular (유저가 만약 같은 CDN을 쓰는 웹사이트에 갔다면, 이미 그 웹사이트 CDN을 cache해서 내 웹사이트도 빨리 볼 수 있음)
+
+https://developers.google.com/speed/libraries/#jquery
+
+맨 위 3.x snippet이 가장 최신 버전. 카피해서 body 나가기 바로 직전에 index.js 위에 넣음. 왜냠 index.js가 내가 custom 해서 꼭! 나와야 하는 거니까.
+
+근데 jQuery library가 전부 불러오기 전에 index.js가 불러오기 시작할 수 있음. 이걸 Prevent 하기 위해
+
+$(document).ready(function() {
+  $("h1").css("color", "red");
+});
+
+를 쓰게 됨. 이럼 css랑 같이 써도 됨.
+
+# 177. How Minification WOrks to Reduce File Size
+
+# 178. Selecting Elements with jQuery
