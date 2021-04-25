@@ -24,6 +24,33 @@ $(document).ready(function() {
 
 를 쓰게 됨. 이럼 css랑 같이 써도 됨.
 
-# 177. How Minification WOrks to Reduce File Size
+# 177. How Minification Works to Reduce File Size
 
 # 178. Selecting Elements with jQuery
+
+$("h1.title") 등
+
+document.querySelectorAll("button"); --> $("button") select all buttons; there is no difference between selecting one or many
+
+# 179. Manipulating Style with jQuery
+
+$("h1").css("font-size"); //current vlaue
+$("h1").css("color", "green"); //value to change
+
+console.log($("h1").css("color")); //current value rgb(0, 0, 0) 인 경우 black
+
+근데 JS에서 style을 바꾸면 쫌 그렇궁... CSS에서. 다 만든 다음에 class로 select하기! 
+
+.big-title {
+  color: "red";
+  font-size: 5rem;
+ }
+
+은 css에서 쓰고,
+
+$("h1").addDClass("big-title");
+
+은 js에 쓰면 완성!
+
+# 180. Manipulating Text with jQuery
+
