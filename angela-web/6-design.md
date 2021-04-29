@@ -46,3 +46,50 @@ https://colorhunt.co/
 
 # 98. User Interface (UI) Design
 
+## Hierarchy
+
+![image](https://user-images.githubusercontent.com/68700599/116622307-16125780-a90a-11eb-95ce-02716d940a45.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622384-393d0700-a90a-11eb-9079-617cd20ced1f.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116621324-9df76200-a908-11eb-8d49-d945fbaf8bbc.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622431-4eb23100-a90a-11eb-87d6-817f2e502952.png)
+
+## Layer
+
+![image](https://user-images.githubusercontent.com/68700599/116622451-570a6c00-a90a-11eb-8c82-1920174532a0.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622508-6be6ff80-a90a-11eb-95bd-f1fa82dda82e.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116621324-9df76200-a908-11eb-8d49-d945fbaf8bbc.png)
+
+## Alignment
+
+![image](https://user-images.githubusercontent.com/68700599/116622526-75706780-a90a-11eb-974c-2977f8386d0f.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622544-7e613900-a90a-11eb-89e0-402868abe4ff.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622579-8b7e2800-a90a-11eb-95d0-c0e7194e2176.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622590-92a53600-a90a-11eb-9cb8-bbe985096e9c.png)
+
+## Whitespace
+
+![image](https://user-images.githubusercontent.com/68700599/116622676-b23c5e80-a90a-11eb-8224-4dd1a947520d.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622651-aa7cba00-a90a-11eb-96f3-67acf4de6efa.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622723-c3856b00-a90a-11eb-9dae-f8dd4d1a4cca.png)
+
+## Audience
+
+![image](https://user-images.githubusercontent.com/68700599/116622757-ced89680-a90a-11eb-91a3-9df7776de811.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622804-e021a300-a90a-11eb-924c-aba84d2aa3ab.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622892-05161600-a90b-11eb-8486-64cc2ef3768c.png)
+
+# 99. User Experience (UX) Design
+
+
