@@ -101,6 +101,16 @@ $("h1").on("click", function() {
 
 # 183. Adding and Removing Elements wiht jQuery
 
+$("h1").before("<button>New</button>"); //h1 전에 html 넣기. 여기선 버튼이니까 버튼 넣어짐.
+$("h1").after("<button>New</button>"); //h1 후에 html 넣기.
+
+$("h1").prepend("<button>New</button>"); //<h1>여기에넣음!!!!Hello</h1>
+$("h1").append("<button>New</button>"); //<h1>Hello여기에넣음!!!!</h1>
+
+$("button").remove(); // 모든 button 다 없애버림 ㅇㅇ
+
 # 184. Website Animations with jQuery
+
+
 
 
