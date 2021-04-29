@@ -92,4 +92,38 @@ https://colorhunt.co/
 
 # 99. User Experience (UX) Design
 
+![image](https://user-images.githubusercontent.com/68700599/116623014-37c00e80-a90b-11eb-8c9f-af24d525ebbc.png)
 
+## Simplicity
+
+![image](https://user-images.githubusercontent.com/68700599/116623085-50302900-a90b-11eb-95d6-40735bd8ed6f.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116623108-57efcd80-a90b-11eb-9e75-bdc362793a6b.png)
+
+## Consistency
+
+function도 consistent 하게
+
+netflix 인데 이거 navbar 계속 바뀜... ㄴㄴ함
+
+![image](https://user-images.githubusercontent.com/68700599/116623163-705fe800-a90b-11eb-8674-531472133e85.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622544-7e613900-a90a-11eb-89e0-402868abe4ff.png)
+
+## Reading Pattern
+
+F pattern
+
+![image](https://user-images.githubusercontent.com/68700599/116623301-a8ffc180-a90b-11eb-9d0e-9f643c6057cb.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116622544-7e613900-a90a-11eb-89e0-402868abe4ff.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116623350-bb79fb00-a90b-11eb-88d4-070145dc67fd.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116623372-c3d23600-a90b-11eb-8ce3-d077851f110e.png)
+
+![image](https://user-images.githubusercontent.com/68700599/116623395-cb91da80-a90b-11eb-8eae-6f07f2291924.png)
+
+# 100. Web Design Practice
+
+https://www.dailyui.co/
