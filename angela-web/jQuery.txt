@@ -72,6 +72,33 @@ $("a").attr("href", "http://www.yahoo.com/"); // 두번째 인풋이 있으면 �
 
 # 182. Adding Event Listeners with jQuery
 
+$("h1").click(function() {
+  $("h1").css("color", "purple");
+}); //h1이 클릭되면 다음 function이 execute됨. 그럼 h1이 purple색으로 바뀜
+
+$("button").click(function() {
+  $("h1").css("color", "purple");
+}); //어느 버튼이든지 눌러서 h1 바꾸려면
+
+$("input").keypress(function(event) {
+  $("h1").text(event.key); //input에 넣는 대로 H1이 바뀜
+});
+
+$(document).keypress(function(event) {
+  $("h1").text(event.key); //아무 key나 누르는 대로 H1이 바뀜
+});
+
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+$("h1").on("mouseover", function() {
+  $("h1").css("color", "purple"); // 마우스를 올리면 색깔 바뀜
+}) 
+
+$("h1").on("click", function() {
+  $("h1").css("color", "purple"); // click하면 색깔 바뀜
+}) 
+
+
 # 183. Adding and Removing Elements wiht jQuery
 
 # 184. Website Animations with jQuery
