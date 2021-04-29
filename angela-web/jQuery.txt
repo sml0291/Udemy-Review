@@ -111,6 +111,19 @@ $("button").remove(); // 모든 button 다 없애버림 ㅇㅇ
 
 # 184. Website Animations with jQuery
 
+$("h1").show(); //h1 보여짐
+$("h1").hide(); //h1 없어짐
+$("h1").toggle(); //h1이 숨겨졌다 보였다 함
 
+$("h1").fadeOut(); //h1이 천천히 없어짐
+$("h1").fadeIn(); //h1이 천천히 보여짐
+$("h1").fadeToggle(); //h1이 천천히 숨겨졌다 보였다 함
 
+$("h1").slideUp(); //h1이 위로 올라가면서 사라짐
+$("h1").slideDown(); //h1이 아래로 오면서 보여짐
+$("h1").slideToggle(); //h1이 슬라이딩 하면서 보였다 안보였다 함 (drop-down menu에 많이 씀)
 
+$("h1").animate({opacity: 0.5%}); //살짝 빠르게 바뀜. animate은 숫자 있는 것만 읽을 수 있음. (예: margin: 20 등)
+
+여러개의 애니메이션을 한 번에 할 수도 있음. (in order)
+$("h1").sldieUp().slideDown().animate({opacity: 0.5%});
