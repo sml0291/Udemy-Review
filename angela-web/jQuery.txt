@@ -48,9 +48,32 @@ console.log($("h1").css("color")); //current value rgb(0, 0, 0) 인 경우 black
 
 은 css에서 쓰고,
 
-$("h1").addDClass("big-title");
+$("h1").addDClass("big-title margin-50"); OR $("h1").removeDClass("big-title");
 
 은 js에 쓰면 완성!
 
+$("h1").hasClass("margin-50"); 는 이 클래스에 margin-50라는 클래스 있니? 해서 true/false 나옴
+
 # 180. Manipulating Text with jQuery
+
+$("h1").text("Bye"); //text가 bye로 바뀜
+
+$("button").text("Don't click me"); //이러면 모든 버튼이 "Don't click me"라고 보여짐
+
+innerHTMl은 jQuery에서는 html임
+$("button").html("<em>Hey</em>"); //html쓰면 em도 카운트 됨! 
+
+# 181. Manipulating Attributes with jQuery
+
+console.log($("img").attr("src")); // 이러면 이 value 가 get됨. (예) drum.png
+$("a").attr("href", "http://www.yahoo.com/"); // 두번째 인풋이 있으면 두번째로 set하고, 걍 하나의 input만 있으면 걍 불러오란 거임. 즉, 이 경우엔 야후로 바꿈ㅊ
+
+참고로 $("h1").attr("class") 라고 쓰면 h1이 가지고 있는 모든 클래스가 결과로 나옴.
+
+# 182. Adding Event Listeners with jQuery
+
+# 183. Adding and Removing Elements wiht jQuery
+
+# 184. Website Animations with jQuery
+
 
